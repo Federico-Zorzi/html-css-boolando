@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
   max-width: 100%;
 }
@@ -26,3 +30,97 @@ img {
   display: block;
   clear: both;
 }
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-items {
+  position: relative;
+  cursor: pointer;
+  height: 500px;
+  width: 300px;
+}
+
+.image-hover {
+  display: none;
+}
+
+.card-items:hover .image-std {
+  display: none;
+}
+
+.card-items:hover .image-hover {
+  display: inline;
+}
+
+.card-items .heart-icon:hover {
+  color: red;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+.discount-percent {
+  display: flex;
+  gap: 5px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+
+  position: relative;
+  bottom: 100px;
+}
+
+.percent {
+  background-color: red;
+  padding: 3px 8px;
+}
+
+.sostenibility {
+  background-color: green;
+  padding: 3px 8px;
+}
+
+.description {
+  line-height: 13px;
+}
+
+.brand {
+  font-size: 0.8rem;
+}
+
+.suit-type {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.prize {
+  font-size: 0.8rem;
+}
+
+.full-prize {
+  color: red;
+}
+
+.discount-prize {
+  color: rgb(150, 150, 150);
+  text-decoration: line-through;
+}
+
+.heart-icon {
+  background-color: white;
+  font-size: 2rem;
+  padding: 0 8px;
+
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+/* FOOTER */

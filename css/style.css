@@ -15,6 +15,11 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 /* # UTILS */
 
 .container {
@@ -64,6 +69,38 @@ img {
 
 /* HEADER */
 
+.header {
+  background-color: #ff822c;
+  margin-bottom: 50px;
+}
+
+.upper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+  color: white;
+}
+
+.list-item {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.logo-image {
+  max-height: 25px;
+}
+
+.icons-item {
+  margin: 0 5px;
+}
+
+.icon {
+  padding: 2px;
+}
 /* MAIN */
 
 .discount-percent {
@@ -110,7 +147,7 @@ img {
 }
 
 .discount-prize {
-  color: rgb(150, 150, 150);
+  color: black;
   text-decoration: line-through;
 }
 
